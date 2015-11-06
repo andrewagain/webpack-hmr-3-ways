@@ -1,0 +1,26 @@
+{
+  "name": "hmr-webpack-dev-server-api",
+  "version": "0.0.1",
+  "description": "Example project showing use of Webpack HMR with the webpack-dev-server API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-dev-server",
+    "API",
+    "HMR",
+    "hot module replacement"
+  ],
+  "author": "Andrew H Farmer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ahfarmer/webpack-hmr-3-ways.git"
+  },
+  "dependencies": {
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
