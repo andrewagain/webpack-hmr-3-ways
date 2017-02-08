@@ -6,7 +6,7 @@
  * To prevent a new <div> from being created every time this module is reloaded,
  * `module.hot.dispose` is used to remove the old <div>.
  */
-var sideEffectNode = document.createElement('div');
+const sideEffectNode = document.createElement('div');
 sideEffectNode.setAttribute('style', 'background-color: lightblue; padding: 20px; margin: 10px;');
 sideEffectNode.textContent = 'Side Effect';
 document.body.appendChild(sideEffectNode);

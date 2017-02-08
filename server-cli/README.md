@@ -3,18 +3,26 @@ HMR w/ webpack-dev-server CLI
 This project shows the absolute simplest way to use Webpack HMR, which is with webpack-dev-server CLI
 
 
+
+
 Setup
 ---
 
-    npm install
+```
+npm install
+```
+
 
 
 Running
 ---
 
-    npm start
+```
+npm start
+```
 
 Open [http://localhost:8080](http://localhost:8080).
+
 
 
 Discussion

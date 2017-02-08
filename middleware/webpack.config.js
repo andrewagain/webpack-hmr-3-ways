@@ -1,7 +1,7 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
 
-var config = {
+module.exports = {
   context: path.join(__dirname, 'js'),
   entry: [
     'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
@@ -13,9 +13,7 @@ var config = {
     publicPath: '/assets/',
   },
   plugins: [
-    new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
-  ]
+    new webpack.NoEmitOnErrorsPlugin(),
+  ],
 };
-module.exports = config;

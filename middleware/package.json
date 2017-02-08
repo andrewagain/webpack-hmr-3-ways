@@ -21,9 +21,9 @@
     "url": "git://github.com/ahfarmer/webpack-hmr-3-ways.git"
   },
   "dependencies": {
-    "express": "^4.13.3",
-    "webpack": "^1.12.2",
-    "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.4.1"
+    "express": "^4.14.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.16.1"
   }
 }

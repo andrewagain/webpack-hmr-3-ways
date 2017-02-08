@@ -1,7 +1,7 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
 
-var config = {
+module.exports = {
   context: path.join(__dirname, 'js'),
   entry: [
     './index.js',
@@ -15,6 +15,5 @@ var config = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-  ]
+  ],
 };
-module.exports = config;
