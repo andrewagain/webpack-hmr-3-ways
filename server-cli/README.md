@@ -1,6 +1,6 @@
 HMR w/ webpack-dev-server CLI
 ---
-This project shows the absolute simplest way to use Webpack HMR, which is with webpack-dev-server CLI
+This project shows the simplest way to use Webpack HMR, which is with webpack-dev-server CLI
 
 
 

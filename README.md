@@ -15,12 +15,12 @@ Here is a short discussion on how to pick the method you want to use.
 
 * Or similarly, if you **have your own node scripts to run webpack**, you'll want to use the [webpack-dev-server API](server-api).
 
-* **If you are already using express** for your website, it is very convenient to use [webpack-hot-middleware](middleware).
+* **If you are already using express** for your website, or you need to run other services in development, you'll want to use [webpack-hot-middleware](middleware).
 
 
 About the Code
 ---
-The actual javascript code within each directory is the same. There are 3 files:
+The browser javascript code within each directory is the same. There are 3 files:
 
 `js/index.js`: Entry point. `require()`s the other 2 files, `box-creator.js` and `math-doer.js`.
 

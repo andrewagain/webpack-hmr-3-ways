@@ -20,7 +20,7 @@
     "url": "git://github.com/ahfarmer/webpack-hmr-3-ways.git"
   },
   "dependencies": {
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.3.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
   }
 }
